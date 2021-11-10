@@ -15617,7 +15617,15 @@ img {
     }
 
 }
+@media only screen and (min-width: 200px) and (max-width: 670px) {
 
+    .site-branding img {
+        max-width:320px;
+        max-height:56px;
+        
+    }
+    .main-header {height:80px;}
+    }
 @media only screen and (max-width: 360px) {
     #topbar {
         display: none;
